@@ -1,0 +1,120 @@
+
+@media (min-width:435px) and (max-width:800px){
+    .navigation{
+        flex-direction: column;
+    }
+    .content h1{
+        font-size: 37px;
+    }
+    .content p{
+        font-size: 17px;
+        padding: 10px 20px;
+    }
+    .navigation .navbar li{
+        padding: 12px 12px;
+        list-style: none;
+        transition: 0.5s ease-in-out;
+    }
+    .content .visit{
+        font-size: 17px;
+    }
+
+    /* Facility */
+    .facility .fac{
+        margin: 35px 4px;
+        padding: 30px 20px;
+    }
+    .facility  .fac-1{
+        margin-top: 90px;
+    }
+
+    /* Testimonial */
+    .testimonial .testi .user{
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 435px){
+    .navigation{
+        padding: 0px;
+        margin: 0px;
+    }
+    .navigation .logo img{
+        width: 140px;
+    }
+    .navigation .navbar{
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+        font-size: 12px;
+    }
+    .content{
+        width: 80%;
+        /* transform: translateY(30%); */
+    }
+    .content p{
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    .content h1{
+        font-size: 22px;
+    }
+    .content .visit{
+        font-size: 12px;
+    }
+
+    /* CAMPUS SECTION */
+    .campus .build img{
+        width: 80%;
+    }
+
+    /* FACILITIES SECTION */
+    .facility{
+        /* flex-wrap: wrap; */
+        justify-content: center;
+    }
+    .facility .fac{
+        left: 50px;
+        width: 230px;
+        height: 130px;
+        margin: 25px 4px;
+        padding: 30px 20px;
+    }
+    .facility  .fac-1{
+        margin-top: 60px;
+    }
+    .facility .fac:hover{
+        height: 270px;
+    }
+    /* .facility .fac img{
+        width: 80%;
+    } */
+
+    /* Testimonial */
+    .testimonial .testi .user{
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 344px) and (max-width: 360px){
+    /* Campuus Section*/
+    .campus .build .wash{
+        font-size: 33px;
+    }
+
+    /* Facility Section*/
+    .facility .fac{
+        left: 30px;
+    }    
+}
+
+@media (max-width: 344px){
+    /* Campus Section*/
+    .campus .build .wash{
+        font-size: 33px;
+    }
+
+    /* Facilitiy Section */
+    .facility .fac{
+        left: 10px;
+    }
+}
